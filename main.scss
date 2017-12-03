@@ -106,7 +106,7 @@ section{
 
 .about-myself{
   padding: 15px 20px !important;
-  height: 100vh;  
+  // height: 106vh;  
   .content{
     text-align: center;
     
@@ -360,7 +360,7 @@ section{
   }
 }
 .portafoliov .portafolio{
-  margin-top: 12vh !important;
+  margin-top: 10vh !important;
 }
 
 /*##### CONTACT SECTION #####*/
@@ -567,7 +567,7 @@ section{
 
 @media (max-width:500px){
   .portafoliov{
-    margin-top: 35vh;
+    margin-top: 1vh;
   }
   .portafoliov .portafolio {
     margin-top: 1vh !important;

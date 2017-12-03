@@ -69,8 +69,7 @@ section {
 
 /*##### ABOUT MYSELF SECTION #####*/
 .about-myself {
-  padding: 15px 20px !important;
-  height: 100vh; }
+  padding: 15px 20px !important; }
   .about-myself .content {
     text-align: center; }
     .about-myself .content h2 {
@@ -237,7 +236,7 @@ section {
           color: #444; }
 
 .portafoliov .portafolio {
-  margin-top: 12vh !important; }
+  margin-top: 10vh !important; }
 
 /*##### CONTACT SECTION #####*/
 .contact {
@@ -362,7 +361,7 @@ section {
     padding: 15px 20px; } }
 @media (max-width: 500px) {
   .portafoliov {
-    margin-top: 35vh; }
+    margin-top: 1vh; }
 
   .portafoliov .portafolio {
     margin-top: 1vh !important; } }
