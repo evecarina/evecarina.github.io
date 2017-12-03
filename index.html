@@ -13,27 +13,47 @@
     <script src="jquery-3.2.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
-
-<header class=" main-nav">
+<!--responsive navegacion  -->
+ <header class=" main-nav visible-xs" >
   <a class="main-nav-link" href="#modal-trigger"><i class="fa fa-bars"></i></a>
-</header> 
+</header>  
+
+<!--barra de navegacion  -->
+   <section >
+   <nav class="navbar navbar-default hidden-xs"  >
+  <div class="container-fluid">    
+    <ul class="nav navbar-nav">
+     <li><a href="#about"><i class="fa fa-user-circle" aria-hidden="true"></i> Cónoceme</a></li>  
+      <li><a href="#portafolio"><i class="fa fa-folder-open-o" aria-hidden="true"></i> Portafolio</a></li>
+      <li><a href="#skills"><i class="fa fa-code" aria-hidden="true"></i> Habilidades</a></li>
+      <li><a href="#contact"><i class="fa fa-address-card-o" aria-hidden="true"></i> Contacto</a></li>
+    </ul>
+  </div>
+</nav>
+</nav>
+</section>   
+<!--portada  -->
 <section class="hero">
   <div class="content">
     <div class="header">
-      <h3></h3>
-      <div id="topname">Evelyn Guevara </div>
-      <h1>Desarrolladora Frond-End</h1>
+      <h1>Evelyn Guevara</h1>
+      <h3>Desarrolladora Frond-End</h3>
+    </div>
+    <div class="header">
+        <a href="#about" style="text-decoration:none"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
     </div>
   </div>
-</section>
+ </section>
 <!--sobre mi  -->
-<section class="about-myself" id="about">
+<section class="about-myself" id="about" >
   <div class=" container content">
   <div class="row">
-      <div>
-        <h2>¡Hola!</h2> 
+      <div class="row-bio">
+        <h2>¡Hola Soy Evelyn!</h2>         
+        <div><img class="thick-white-border smaller-image" 
+            src="img/perfil.jpg">
+        </div>
         <p>
-           Soy Evelyn</br>
            Desarrolladora frond-end, egresada de Laboratoria.</br>
            Bachiller en Ingeniería de sistemas.
            Estoy especializada en el diseño y desarrollo web front-end, maquetando en HTML5 con CSS3
@@ -60,26 +80,95 @@
         </section>
     </div>
   </div>
-</section>
-<!--Habilidades tecnicas  -->
- <section class="descripcion" id="skills">
-    <div class="container">
-    <div class="row" align="center">
-        <div class="col-md-12 col-xs-12 col-sm-12">
-            <h1 >Habilidades Técnicas</h1>
-        </div>
+</section>  
+<!--mi portafolio  -->
+ <section class="portafoliov container" id="portafolio">
+     <section class="portafolio" id="trabajo">
+    <div class="portafolio-container">
+      <section class="portafolio-item">
+        <img src="img/p7.jpg" alt="" class="portafolio-img" />
+        <section class="portafolio-text" align="center">
+         <a href="https://evecarina.github.io/sushi" target="_blank" style="text-decoration:none">
+             <h5>Suchi</h5>
+        </a>
+        <a href="https://github.com/evecarina/sushi" target="_blank" style="text-decoration:none">
+             <h5>Github</h5>
+        </a>
+        </section>
+      </section>
+      <section class="portafolio-item">
+        <img src="img/p1.jpg" alt="" class="portafolio-img"/>
+        <section class="portafolio-text" align="center">
+         <a href="https://evecarina.github.io/video-youtube/" target="_blank" style="text-decoration:none">
+             <h5>Youtube</h5>
+        </a>
+        <a href="https://github.com/evecarina/video-youtube" target="_blank" style="text-decoration:none">
+             <h5>Github</h5>
+        </a>
+        </section>
+      </section>
+    <section class="portafolio-item">
+        <img src="img/p8.jpg" alt="" class="portafolio-img" />
+        <section class="portafolio-text" align="center">
+         <a href="https://evecarina.github.io/mapaYanapa" target="_blank" style="text-decoration:none">
+             <h5>Yanapa</h5>
+        </a>
+        <a href="https://github.com/evecarina/mapaYanapa" target="_blank" style="text-decoration:none">
+             <h5>Github</h5>
+        </a>
+        </section>
+      </section>
+      
     </div>
+  </section>
+ <section class="portafolio" id="trabajo">
+    <div class="portafolio-container">  
+        <section class="portafolio-item">
+        <img src="img/p2.jpg" alt="" class="portafolio-img"/>
+       <section class="portafolio-text" align="center">
+         <a href="https://evecarina.github.io/Laberinto/" target="_blank" style="text-decoration:none">
+             <h5>Laberinto</h5>
+        </a>
+        <a href="https://github.com/evecarina/Laberinto" target="_blank" style="text-decoration:none">
+             <h5>Github</h5>
+        </a>
+        </section>
+      </section>    
+      <section class="portafolio-item">
+        <img src="img/p5.jpg" alt="" class="portafolio-img"/>
+        <section class="portafolio-text" align="center">
+         <a href="https://evecarina.github.io/panda-panda/" target="_blank" style="text-decoration:none">
+             <h5>PandaLove</h5>
+        </a>
+        <a href="https://github.com/evecarina/panda-panda" target="_blank" style="text-decoration:none">
+             <h5>Github</h5>
+        </a>
+        </section>
+      </section>
+      <section class="portafolio-item">
+        <img src="img/p6.jpg" alt="" class="portafolio-img"/>
+        <section class="portafolio-text" align="center">
+         <a href="https://evecarina.github.io/firebaseTrello-vf/" target="_blank" style="text-decoration:none">
+             <h5>Trello</h5>
+        </a>
+        <a href="https://github.com/evecarina/firebaseTrello-vf" target="_blank" style="text-decoration:none">
+             <h5>Github</h5>
+        </a>
+        </section>
+      </section>
     </div>
-</section> 
-
-<section class="skills" >
+  </section>
+ </section> 
+ <!--Habilidades tecnicas  -->
+<section class="skills" id="skills">
   <div class="content">
     <div class="development-wrapper">
       <ul class="skills-bar-container">
         <li>
           <div class="progressbar-title">
-            <h3>HTML5</h3>
-            <span class="percent" id="html-pourcent"></span>
+              <h3>HTML5 </h3> 
+              <span class="progressbar" id="progress-html"></span>       
+             <span class="percent percent1" id="html-pourcent"></span>
           </div>
           <div class="bar-container" data-percent="95">
             <span class="progressbar" id="progress-html"></span>
@@ -88,7 +177,7 @@
         <li>
           <div class="progressbar-title">
             <h3>CSS / SASS</h3>
-            <span class="percent" id="css-pourcent"></span>
+            <span class="percent percent2" id="css-pourcent"></span>
           </div>
           <div class="bar-container" data-percent="85">
             <span class="progressbar" id="progress-css"></span>
@@ -96,8 +185,8 @@
         </li>
         <li>
           <div class="progressbar-title">
-            <h3>JavaScript / jQuery</h3>
-            <span class="percent" id="javascript-pourcent"></span>
+            <h3>JavaScript / jQuery       </h3>
+            <span class="percent percent3" id="javascript-pourcent"></span>
           </div>        
           <div class="bar-container" data-percent="80">
             <span class="progressbar" id="progress-javascript"></span>
@@ -105,8 +194,8 @@
         </li>
         <li>
           <div class="progressbar-title">
-            <h3>React</h3>
-            <span class="percent" id="html-pourcent"></span>
+            <h3>React           </h3>
+            <span class="percent percent4" id="html-pourcent"></span>
           </div>
           <div class="bar-container" data-percent="70">
             <span class="progressbar" id="progress-html"></span>
@@ -115,7 +204,7 @@
         <li>
           <div class="progressbar-title">
             <h3>Github</h3>
-            <span class="percent" id="php-pourcent"></span>
+            <span class="percent percent5" id="php-pourcent"></span>
           </div>
           <div class="bar-container" data-percent="70">
             <span class="progressbar" id="progress-php"></span>
@@ -124,7 +213,7 @@
         <li>
           <div class="progressbar-title">
             <h3>Firebase</h3>
-            <span class="percent" id="angular-pourcent"></span>
+            <span class="percent percent6" id="angular-pourcent"></span>
           </div>
           <div class="bar-container" data-percent="40">
             <span class="progressbar" id="progress-angular"></span>
@@ -136,88 +225,33 @@
   </div>
   <div class="clear"></div>
 </section>
-
-<!--cabezera portafolio  -->
-  <section class="descripcion"  id="proyect">
-    <div class="container">
-    <div class="row" align="center">
-        <div class="col-md-12 col-xs-6 col-md-12">
-            <h1 >Portafolio</h1>
-        </div>
-    </div>
-    </div>
-</section>  
-<!--mi portafolio  -->
- <section class="portafoliov">
-     <div class="container">
-     <div class="row">
-          <div class=" cont-porta col-md-6 col-sm-12 col-xs-12">
-             <div><img width="100%" src="img/youtube.PNG"/></div>
-              <div class="row">
-                  <div class="col-md-6">                      
-                      <div><img/></div>
-                  </div>
-              </div>             
-         </div> 
-        <div class="col-md-6 col-sm-12 col-xs-12">
-            <img width="100%" src="img/yanapa.PNG" ></img>
-            <div class="link" align="center">
-                <a href="https://mariley20.github.io/home" target="_blank" style="text-decoration:none">Yanapa</a>
-                <a href="https://github.com/Mariley20/yanapa" target="_blank" style="text-decoration:none">Código</a>
-            </div>
-         </div>        
-     </div>
-        <div class="row">
-         <div class="col-md-6 col-sm-12 col-xs-12">
-            <img width="100%" src="img/suschi.PNG" ></img>
-            <div class="link" align="center">
-                <a href="https://sharmyn28.github.io/SUSHI/#/" target="_blank" style="text-decoration:none">Suschi</a>
-                <a href="https://github.com/Sharmyn28/SUSHI" target="_blank" style="text-decoration:none">Código</a>
-            </div>
-         </div>  
-        <div class="col-md-6 col-sm-12 col-xs-12">
-            <img width="100%" src="img/panda.PNG" ></img>
-            <div class="link" align="center">
-                <a href="https://evecarina.github.io/panda-panda/" target="_blank" style="text-decoration:none">Panda Love</a>
-                <a href="https://github.com/evecarina/panda-panda" target="_blank" style="text-decoration:none">Código</a>
-            </div>
-         </div>       
-     </div>
-        <div class="row">
-         <div class="col-md-6 col-sm-12 col-xs-12">
-            <img width="100%" src="img/laberinto.png" ></img>
-            <div class="link" align="center">
-                <a href="https://evecarina.github.io/Laberinto/" target="_blank" style="text-decoration:none">Laberinto</a>
-                <a href="https://github.com/evecarina/Laberinto" target="_blank" style="text-decoration:none">Código</a>
-            </div>
-         </div>  
-        <div class="col-md-6 col-sm-12 col-xs-12">
-            <img width="100%" src="img/trivia.PNG" ></img>
-            <div class="link" align="center">
-                <a href="https://evecarina.github.io/Triva-ABC-React/" target="_blank" style="text-decoration:none">Trivia</a>
-                <a href="https://github.com/evecarina/Triva-ABC-React" target="_blank" style="text-decoration:none">Código</a>
-            </div>
-         </div>    
-    </div>
- </section>
 <!--contacto  -->
-
-<div id="contacto">
-		<h1 class="seccion">Contáctame</h1>
-		<div id="social">
-			<a href="https://www.linkedin.com/in/evelyn-carina-guevara-alanya-90a972149" target='_blank'><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+<div id="contact" class="container-fuid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>¿Te gustaría trabajar conmigo?</h1>
+          <h3>contáctame</h3>
+          <br/>
+          <div class="redes">
+            <a href="https://www.linkedin.com/in/evelyn-carina-guevara-alanya-90a972149" target='_blank'><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             <a href="https://www.facebook.com/evelyncarina.guevara" target='_blank'><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-            <a href="https://github.com/evecarina" target='_blank'><i class="fa fa-github" aria-hidden="true"></i></a>  
-		</div>
-		<p>Si te gusto mi trabajo cóntactame </p> 
-</div>
-<div class="nav-modal" id="modal-trigger">
+             <a href="https://github.com/evecarina" target='_blank'>
+                <i class="fa fa-github-alt" aria-hidden="true"></i>
+            </a>            
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Seccion modal  -->
+ <div class="nav-modal" id="modal-trigger" style="visibility:none">
   <a class="main-nav-link" href="#"><i class="fa fa-close"></i></a>
   <a href="#about" class="nav-modal-link" style="text-decoration:none">C<span class="letter">ó</span>noceme</a><br/></br>
   <a href="#proyect" class="nav-modal-link" style="text-decoration:none">Proyect<span class="letter">o</span>s</a><br/><br/>
   <a href="#skills" class="nav-modal-link" style="text-decoration:none">H<span class="letter">a</span>bilidades</a><br/><br/>
   <a href="#contacto" class="nav-modal-link" style="text-decoration:none">C<span class="letter">o</span>ntácto</a>
-</div>
+</div> 
     
  <script src='main.js' type="text/javascript"></script>
 </body>
