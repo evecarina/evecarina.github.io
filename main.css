@@ -300,6 +300,8 @@ section {
 /* ############################
         RESPONSIVE
 ############################### */
+@media(min-width:1200px){
+
   .skills .content .development-wrapper .skills-bar-container li .progressbar-title .percent1 {
     color: #3c3c3c;
     margin-bottom: 5px;
@@ -325,6 +327,7 @@ section {
     color: #3c3c3c;
     margin-bottom: 5px;
     padding-left: 73vh !important; } 
+  }
 
 @media screen and (min-width: 480px) {
   .skills .content .tools-knowledge-wrapper .tools-wrapper,
