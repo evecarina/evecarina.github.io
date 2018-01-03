@@ -44,7 +44,7 @@ section {
   background-size: cover;
   background-position: center; }
   .hero .content {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.2);
     width: 100%;
     height: 100%; }
     .hero .content .header {
@@ -300,31 +300,32 @@ section {
 /* ############################
         RESPONSIVE
 ############################### */
-@media (min-width: 1200px) {
   .skills .content .development-wrapper .skills-bar-container li .progressbar-title .percent1 {
     color: #3c3c3c;
     margin-bottom: 5px;
-    padding-left: 75vh !important; }
+    padding-left: 76vh!important;
+    }
   .skills .content .development-wrapper .skills-bar-container li .progressbar-title .percent2 {
     color: #3c3c3c;
     margin-bottom: 5px;
-    padding-left: 68vh !important; }
+    padding-left: 69vh !important; }
   .skills .content .development-wrapper .skills-bar-container li .progressbar-title .percent3 {
     color: #3c3c3c;
     margin-bottom: 5px;
-    padding-left: 55vh !important; }
+    padding-left: 54vh !important; }
   .skills .content .development-wrapper .skills-bar-container li .progressbar-title .percent4 {
     color: #3c3c3c;
     margin-bottom: 5px;
-    padding-left: 76vh !important; }
+    padding-left: 78vh !important; }
   .skills .content .development-wrapper .skills-bar-container li .progressbar-title .percent5 {
     color: #3c3c3c;
     margin-bottom: 5px;
-    padding-left: 75vh !important; }
+    padding-left: 77vh !important; }
   .skills .content .development-wrapper .skills-bar-container li .progressbar-title .percent6 {
     color: #3c3c3c;
     margin-bottom: 5px;
-    padding-left: 72vh !important; } }
+    padding-left: 73vh !important; } 
+
 @media screen and (min-width: 480px) {
   .skills .content .tools-knowledge-wrapper .tools-wrapper,
   .skills .content .tools-knowledge-wrapper .knowledge-wrapper {
